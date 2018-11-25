@@ -7,5 +7,6 @@ class Greeter
     else
       resp.write "Good Afternoon!"
     end
+    resp.finish
   end
 end
